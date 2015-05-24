@@ -204,23 +204,23 @@ echo -e "\n|  https://github.com/marrygrim/spinup/ \n|";sleep 10
 #
 #setup keyboard shortcuts for 
 #Synapse[clt,space] templates with predefine options.
-#[windows management and workflow ajustments]
+#[windows management and work-flow adjustments]
 #[open the "start menu" with the super key,aka windows' key]
-#ramdisk for the install? do i remove the ramdisk after install? menu-selector for how much ram a computer has so to auto config a ratio for the ramdisk-install could take less then an hour on dsl or adsl.-run as -different file-subsrcipt- or something like that?
-#proload for linux-aka like superfetch for Microsoft-Windows
-#make ajustable proload ram configuations-template like even-make a dirctory for them[spinup] to live
+#ramdisk for the install? do i remove the ramdisk after install? menu-selector for how much ram a computer has so to auto config a ratio for the ramdisk-install could take less then an hour on dsl or adsl.-run as -different file-subscript- or something like that?
+#proload for linux-aka like super-fetch for Microsoft-Windows
+#make adjustable proload ram configurations-template like even-make a dirctory for them[spinup] to live
 #maybe make a gui for this program and put this into a .deb and .rem file.
-#pacman compatable commands already
-#have an option to install apt-get and/or aptitidue-synpatic package managers at the very beginning
-#whatever the option they choose have the commands be variables so to be muilti os and system-muiltarch?
-#filesytem for downloading the packages, temp folder,offline mode, recovery mode, logs, logs with failed and completes successfully code by call number-something to filture the logs some how- maybe lastly a complete piped to new log txt file,with traps and debugging- if somehting does not complete, this trap log with take notes and when trying to run the installer/spinup program, this will be pointed out and broken parts of the installer with try to be fixed. 
+#pacman compatible commands already
+#have an option to install apt-get and/or aptitude-synpatic package managers at the very beginning
+#whatever the option they choose have the commands be variables so to be multi-os and system - muiltarch?
+#filesystem for downloading the packages, temp folder,offline mode, recovery mode, logs, logs with failed and completes successfully code by call number-something to filterer the logs some how- maybe lastly a complete piped to new log txt file,with traps and debugging- if somehting does not complete, this trap log with take notes and when trying to run the installer/spinup program, this will be pointed out and broken parts of the installer with try to be fixed. 
 echo
 sudo dpkg --configure -a
 echo
 sudo apt-get install -f
 echo;sleep 8
 echo
-echo -e "\n| closing this window- in 10 seconds\n| type the command [history] to see what has happend"
+echo -e "\n| closing this window- in 10 seconds\n| type the command [history] to see what has happened"
 echo
 pwd;sleep 2
 history;sleep 9
