@@ -4,7 +4,7 @@ https://github.com/marrygrim/spinup
 
 #sudo apt-get install git;git config --global color.ui auto
 #git guide echo -e "\n| https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf\n|\n|
-#echo -e "\n| https://try.github.io/levels/1/challenges/25\n|"
+#echo -e "\n| http://gitreal.codeschool.com/levels/1\n|"
 
 
 

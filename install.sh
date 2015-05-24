@@ -1,6 +1,6 @@
 #!/bin/bash
-set -o nounset
-set -o errexit
+#set -o nounset
+#set -o errexit
 
 #adding temp user -not finished-optional
 #sudo adduser spinup
@@ -106,7 +106,9 @@ sudo apt-get install skype pidgin
 # 17 - Installing Steam Gaming Client
 echo -e "\n| Installing Steam Gaming Client\n|";sleep 4
 sudo apt-get -y install steam
-
+echo
+echo "\n| rememer to close this window after this download of steam\n|"&& sleep 5
+steam:
 # 18 - Install Bleachbit System Cleaner
 echo -e "\n| Installing Bleachbit System Cleaner-\n|";sleep 4
 sudo apt-get -y install bleachbit
@@ -164,13 +166,13 @@ echo -e "\n|  https://github.com/marrygrim/spinup/ \n|";sleep 10
 #/sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors
 #additional drivers command to search and install at the very begining of the script search for the title of "#02 - Installing additional drivers"-if restart maybe needed to complete the install-Then either write code to stop the script make the rest of the script as a job/cronjob on the next reboot-or if it is safe to continue on then reboot after the "spinup" is completed all tasks[even the kernal and grub stuff,tricky stuff] Remeber to place a job in either code config to do a system update and ask if the enduser wants to update as the first task on start up after the desktop fully loads and the internet connect is available. 
 #
-#
+#"http://humblepad.com/markdown -website write for web code noobs"
 #
 #vim-nano-lynx-tree-htop-ssh-ssh server-openvpn?-shellcheck-
 #softeither vpn server?
 #debconf?install-
 #sudo apt-get install git;git config --global color.ui auto
-#git guide echo -e "\n|https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf\n|"
+#git guide echo -e "\n|https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf\n|\n|https://try.github.io/levels/1/challenges/25\n|"
 #git server?
 #samba-wget-screen-tmux
 #http://noah.org/wiki/Ubuntu_Fresh_Install
